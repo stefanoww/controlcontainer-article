@@ -1,0 +1,14 @@
+<div [formGroup]="form" class="container">
+  <mat-form-field>
+    <mat-label>Cart number</mat-label>
+    <input matInput placeholder="Cart number" formControlName="cartNumber" required>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>CCV number</mat-label>
+    <input matInput placeholder="CCV number" formControlName="ccvNumber" required>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Expiration date</mat-label>
+    <input matInput placeholder="Expiration date" formControlName="expirationDate" required>
+  </mat-form-field>
+</div>
